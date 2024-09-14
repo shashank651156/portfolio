@@ -30,7 +30,7 @@ def main():
             border: 2px solid #FF4B4B;
             width: 100%;
             box-sizing: border-box;
-            transition: all 0.2s ease;
+            transition: all 0.2s ease-out;
             outline: none;
         }
         input[type="text"]:hover {
