@@ -82,15 +82,11 @@ def main():
     st.markdown("<p class='description'>Full-stack developer with a passion for AI/ML and LLMs, skilled in building intelligent, scalable web applications with seamless user experiences and a touch of UI/UX expertise.</p>", unsafe_allow_html=True)
     st.write("---")
     
-    # st.markdown("""
-    #     <div style="font-size: 36px; margin-bottom: -28px;">
-    #         Projects
-    #     </div>
-    # """, unsafe_allow_html=True)
+
     st.header("Projects")
 
     # Search bar for filtering projects by TechStack with placeholder
-    search_query = st.text_input("", placeholder="Search my Projects by Tech Stack (e.g., Java, Python)")
+    search_query = st.text_input(label="Search", placeholder="Search my Projects by Tech Stack (e.g., Java, Python)")
 
 
 
