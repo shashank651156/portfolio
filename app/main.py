@@ -226,7 +226,7 @@ def main():
     with st.container():
         if visible:
             pdf_url = "app/resource/Shashank_Soni_Resume.pdf"  # The path to your PDF file
-            pdf_viewer(pdf_url, width=1800, height=1400)
+            pdf_viewer(pdf_url, width=1200, height=600)
 
      
 if __name__ == '__main__':
