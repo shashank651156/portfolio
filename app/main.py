@@ -23,7 +23,7 @@ def main():
             background-color: #f5f5f5;
         }
         input[type="text"] {
-            color: #ffffff;
+            color: #FF4B4B;
             background-color: #grey;
             border-radius: 5px;
             padding: 10px;
