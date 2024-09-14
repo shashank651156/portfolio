@@ -35,7 +35,7 @@ def main():
         }
         input[type="text"]:hover {
             background-color: #FFE4E4;
-            padding: 8px;
+            padding: 12px;
         }
         input[type="text"]:focus {
             background-color: #FFE4E4;
