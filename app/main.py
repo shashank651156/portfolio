@@ -151,7 +151,7 @@ def main():
                 transform: scale(1.1);
             }
         </style>
-        <div class="link-container" style="display: flex; align-items: center; margin-bottom: 10px;">
+        <div class="contect-info" style="display: flex; align-items: center; margin-bottom: 10px;">
             <span style="font-size: 16px; margin-right: 5px;">📞</span>
             <span>Phone: <a href="tel:+916205468356" class="contact-info">+91 6205 468 356</a></span>
         </div>
