@@ -61,7 +61,7 @@ def main():
         }
         .link-container a {
             text-decoration: none;
-            color: black;
+            color: #a9a9a9;
             transition: transform 0.2s ease, color 0.2s ease;
         }
         .link-container a:hover {
