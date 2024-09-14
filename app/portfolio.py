@@ -24,7 +24,7 @@ class Portfolio:
         if not skills:
             return []  # Return empty list if no skills provided to prevent the error
         
-        results = self.collection.query(query_texts=skills, n_results=2)
+        results = self.collection.query(query_texts=skills, n_results=6)
         
         # Extract metadatas from the results
         metadatas = results.get('metadatas', [])
