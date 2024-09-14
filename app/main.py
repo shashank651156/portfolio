@@ -86,7 +86,7 @@ def main():
     st.header("Projects")
 
     # Search bar for filtering projects by TechStack with placeholder
-    search_query = st.text_input(label="", placeholder="Search my Projects by Tech Stack (e.g., Java, Python)")
+    search_query = st.text_input(label=" ", placeholder="Search my Projects by Tech Stack (e.g., Java, Python)")
 
 
 
