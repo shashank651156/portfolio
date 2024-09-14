@@ -72,6 +72,9 @@ def main():
             margin-top: -20px;
             margin-bottom: -20px
         }
+        .projects-header {
+        margin-bottom: -20px; /* Adjust this value to control the space below the specific header */
+        }
     </style>
     """
     
@@ -84,7 +87,9 @@ def main():
     st.write("---")
     
 
-    st.header("Projects")
+    # st.header("Projects")
+    st.markdown('<h2 class="projects-header">Projects</h2>', unsafe_allow_html=True)
+
 
     # Search bar for filtering projects by TechStack with placeholder
     search_query = st.text_input(label=" ", placeholder="Search my Projects by Tech Stack (e.g., Java, Python)")
