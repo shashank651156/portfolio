@@ -26,7 +26,7 @@ def main():
             color: #FF4B4B;
             background-color: #grey;
             border-radius: 5px;
-            padding: 10px;
+            padding: 12px;
             border: 2px solid #FF4B4B;
             width: 100%;
             box-sizing: border-box;
@@ -35,7 +35,7 @@ def main():
         }
         input[type="text"]:hover {
             background-color: #FFE4E4;
-            padding: 8px;
+            padding: 15px;
         }
         input[type="text"]:focus {
             background-color: #FFE4E4;
