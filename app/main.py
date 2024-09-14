@@ -11,7 +11,7 @@ from streamlit_pdf_viewer import pdf_viewer
 # st.markdown('<meta name="viewport" content="width=device-width, initial-scale=1.0">', unsafe_allow_html=True)
 
 # Initialize Portfolio and load projects
-portfolio = Portfolio("app/resource/my_portfolio.xlsx")
+portfolio = Portfolio("app/resource/my_portfolio.csv")
 portfolio.load_portfolio()
 
 # Streamlit Web UI

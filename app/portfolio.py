@@ -3,9 +3,9 @@ import chromadb
 import uuid
 
 class Portfolio:
-    def __init__(self, file_path="app/resource/my_portfolio.xlsx"):
+    def __init__(self, file_path="app/resource/my_portfolio.csv"):
         self.file_path = file_path
-        self.data = pd.read_excel(file_path)  # Read the Excel file containing project details
+        self.data = pd.read_csv(file_path)  # Read the Excel file containing project details
         self.chroma_client = chromadb.PersistentClient('vectorstore')  # Initialize ChromaDB PersistentClient
         self.collection = self.chroma_client.get_or_create_collection(name="portfolio")  # Create or retrieve a collection
 
