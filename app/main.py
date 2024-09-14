@@ -73,7 +73,7 @@ def main():
             margin-bottom: -20px
         }
         .projects-header {
-        margin-bottom: -40px; /* Adjust this value to control the space below the specific header */
+        margin-bottom: -36px; /* Adjust this value to control the space below the specific header */
         }
     </style>
     """
