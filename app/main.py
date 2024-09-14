@@ -142,15 +142,15 @@ def main():
         st.header("Contact Me")
 
         st.write("""
-        # <style>
-        #     .contact-info {
-        #         transition: color 0.2s ease, transform 0.2s ease;
-        #     }
-        #     .contact-info:hover {
-        #         color: #FF4B4B;
-        #         transform: scale(1.1);
-        #     }
-        # </style>
+        <style>
+            .contact-info {
+                transition: color 0.2s ease, transform 0.2s ease;
+            }
+            .contact-info:hover {
+                color: #FF4B4B;
+                transform: scale(1.1);
+            }
+        </style>
         <div class="link-container" style="display: flex; align-items: center; margin-bottom: 10px;">
             <span style="font-size: 16px; margin-right: 5px;">📞</span>
             <span>Phone: <a href="tel:+916205468356" class="contact-info">+91 6205 468 356</a></span>
